@@ -8,6 +8,14 @@ public class Driver extends Person {
         this.experience = experience;
     }
 
+    public int getExperience() {
+        return experience;
+    }
+
+    public void setExperience(int experience) {
+        this.experience = experience;
+    }
+
     @Override
     public String toString() {
         return "Driver{" +

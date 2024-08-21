@@ -11,6 +11,14 @@ public class SportCar extends Car{
         this.speed = speed;
     }
 
+    public double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
+
     @Override
     public String toString() {
         return "SportCar{" +
